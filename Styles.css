@@ -1,4 +1,9 @@
 h1{
-  color: #3244f42;
-  font-family: Georgia;
+  color: #243543;
+  font-family: Consolas;
+}
+
+.subPalabras{
+  color: blue;
+  font-family: Consolas;
 }
