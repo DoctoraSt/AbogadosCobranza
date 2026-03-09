@@ -12,7 +12,12 @@ nav{
 }
 
 .container{
-  margin: 10%;
+  margin: 5%;
+}
+
+.primeraParte{
+  display: flex;
+  justify-content: center;
 }
 
 h5{
@@ -59,3 +64,23 @@ p{
   background-color: #260801;
   color: #d9d5d9;
 }
+
+.seccionDos{
+  background-color: #d9d5d9;
+}
+
+.contenedorCafe{
+  background-color: #593e34;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.contenedorCafeParrafo{
+  color: #d3d0d0;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
