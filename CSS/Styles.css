@@ -69,18 +69,21 @@ p{
   background-color: #d9d5d9;
 }
 
-.contenedorCafe{
+.contenedorCafeCuadro{
+  color: #d3d0d0;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #593e34;
   padding: 5%;
   border-radius: 5px;
 }
 
-.contenedorCafeParrafo{
-  color: #d3d0d0;
+.contenedorClaroCuadro{
   font-weight: bold;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 2px 2px 2px 2px #593e34;
+  padding: 5%;
+  border-radius: 5px;
 }
-
-
-
