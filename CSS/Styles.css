@@ -123,3 +123,149 @@ p{
   padding: 5%;
   border-radius: 5px;
 }
+
+/* Footer general */
+.footerSection {
+  background-color: #d3d0d0;
+  padding: 40px 5%;
+}
+
+.footerTexto {
+  display: flex;
+  flex-direction: column;   /* ← esto faltaba */
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footerTexto h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #260801;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Layout de dos columnas */
+.footerContenido {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Formulario */
+.formularioFooter {
+  background-color: #f0eeee;
+  border-radius: 10px;
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 16px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 6px;
+}
+
+.inputGroup label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #260801;
+  font-size: 0.85rem;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 0.9rem;
+  color: #333;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inputGroup textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.btnEnviar {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+/* Lado derecho */
+.footerDerecho {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 30px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.contactItem .backgroundIcons {
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.contactItem strong {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #260801;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.contactItem p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.mapaPlaceholder {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerContenido {
+    flex-direction: column;
+  }
+  .contactInfo {
+    flex-direction: column;
+  }
+  .inputRow {
+    flex-direction: column;
+  }
+}
