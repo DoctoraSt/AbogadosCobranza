@@ -42,8 +42,10 @@ h1{
   font-weight: bold;
 }
 
-p{
-  color: #593e34;
+.final{
+  background-color: #260801;
+  color: #d3d0d0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .button1{
