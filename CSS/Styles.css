@@ -1,10 +1,20 @@
 body{
-  background-color: #d3d0d0;
+  background-color: #f0eeee;
 }
 
 a{
   color: #260801;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+a:hover{
+  color: #593e34;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+  color: #260801;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
@@ -48,7 +58,7 @@ p{
 
 .button2{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #d3d0d0;
+  background-color: #f0eeee;
   color: #593e34;;
   padding: 5%;
   width: 80%;
@@ -66,7 +76,32 @@ p{
 }
 
 .seccionDos{
+  display: flex;
+  justify-content: center;
   background-color: #d9d5d9;
+}
+
+.miniContainer{
+  text-align: center;
+  color: #260801;
+  font-size: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuadroMini{
+  background-color: #f0eeee;
+  margin: 2%;
+  padding: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+}
+
+.backgroundIcons{
+  color: #260801;
+  background-color: #d3d0d0;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 5px ;
 }
 
 .contenedorCafeCuadro{
@@ -77,11 +112,12 @@ p{
   background-color: #593e34;
   padding: 5%;
   border-radius: 5px;
-}
+} 
 
 .contenedorClaroCuadro{
   font-weight: bold;
   font-size: 20px;
+  background-color: #f0eeee;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-shadow: 2px 2px 2px 2px #593e34;
   padding: 5%;
